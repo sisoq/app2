@@ -1,120 +1,16 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>مرحبا بك</title>
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        font-family: Arial, sans-serif;
-      }
-      .header {
-        background-color: #333;
-        color: #fff;
-        padding: 10px 0;
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 999;
-      }
-      .footer {
-        background-color: #333;
-        color: #fff;
-        padding: 10px 0;
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        z-index: 999;
-      }
-      .content {
-        padding-top: 60px; /* تعديل الارتفاع لمطابقة ارتفاع شريط العنوان */
-        padding-bottom: 60px; /* تعديل الارتفاع لمطابقة ارتفاع شريط الحقوق */
-      }
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-
-    .container {
-        max-width: 600px;
-        width: 100%;
-        background-color: #fff;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .container2 {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تضليل خفيف للمربع */
-        }
-    h1 {
-        color: #333;
-    }
-
-    label {
-        font-weight: bold;
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    input[type="date"] {
-        padding: 8px;
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 100%;
-    }
-
-    button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-right: 10px;
-    }
-
-    button:hover {
-        background-color: #0056b3;
-    }
-
-    #resetBtn {
-        background-color: #dc3545;
-    }
-
-    #result {
-        text-align: center;
-        margin-top: 20px;
-        font-weight: bold;
-        color: #333;
-    }
-    .section {
-    display: none;
-}
-
-#section1 {
-    display: block; /* يجعل العنصر الأول مرئيًا افتراضيًا */
-}
-
-   
-    </style>
-  </head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  
+    <link rel="stylesheet" href="style.css">
+    </head>
   <body>
     <div class="header">
         <div class="navigation-buttons">
@@ -123,7 +19,7 @@
             <button onclick="showSection(3)">BMI</button>
             <button onclick="showSection(4)">Calculator</button>
             <button onclick="showSection(5)">Distance Conversion</button>
-            <button onclick="showSection(6)">6</button>
+            
         </div>
     </div>
     <div class="content">
@@ -132,15 +28,34 @@
       
     </div>
 
-    <div class="footer">
-      <p>جميع الحقوق محفوظة © 2024</p>
-    </div>
+  
 
 </head>
 <body class="body">
 <div class="sections-container">
     <div class="section" id="section1">
-        <h1> Welcome to the B</h1>
+       
+        
+        <div>
+            <h1>قواعد الاستخدام</h1>
+            <p>قد تكون بعض الخدمات المقدمة عبر الموقع معرضة للتحديث أو التغيير دون إشعار مسبق.</p>
+            <p>في حال وجود أي استفسارات أو مشاكل في استخدام الموقع، يُرجى التواصل معنا للحصول على المساعدة.</p>
+            <p>عدم نشر أو مشاركة المعلومات الشخصية للمستخدمين دون إذنهم.</p>
+          </div>
+          
+          <div>
+            <h1>مرحبًا بكم في موقعنا الإلكتروني!</h1>
+            <p>نحن نفخر بتقديم مجموعة متنوعة من الخدمات الفعّالة والممتعة لكم.</p>
+            <p>يمكنكم الاستفادة من مجموعة واسعة من الأدوات والمحسنات التي نقدمها هنا،</p>
+            <p>بما في ذلك حاسبة العمر، مُحسن حساب مؤشر كتلة الجسم 
+                ، والآلة الحاسبة، وغيرها.</p>
+            <p>نسعى دائمًا لتوفير تجربة مستخدم ممتعة ومريحة، ونرحب بأي اقتراحات أو تعليقات تساهم في تطوير خدماتنا.</p>
+          </div>
+          <div>
+            <p><h1>aa5447457@gmail.com</h1></p>
+          </div>
+          
+          
     </div>
         
     <div class="section" id="section2">
@@ -169,67 +84,94 @@
         </div>
         
     </div>
-    <div class="section" id="section4"></div>
-    <div class="section" id="section5"></div>
-    <div class="section" id="section6"></div>
+    <div class="section" id="section4">
+ 
+    
+
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display111" disabled>
+        <div class="buttons11">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendToDisplay('(')">(</button>
+            <button onclick="appendToDisplay(')')">)</button>
+            <button onclick="clearEntry()">CE</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('*')">x</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            
+            <button onclick="appendToDisplay('0')">0</button>
+            
+            <button onclick="appendToDisplay('.')">.</button>
+            
+            <button onclick="appendToDisplay(')')">)</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+  
+    </div>
+    <div class="section" id="section5">
+        <div class="container333">
+            <h2>Distance Converter</h2>
+            <div>
+              <label for="inputDistance">Enter Distance:</label>
+              <input type="number" id="inputDistance" />
+              <select id="fromUnit">
+                <option value="m">Meter</option>
+                <option value="km">Kilometer</option>
+                <option value="cm">Centimeter</option>
+                <option value="mi">Mile</option>
+                <option value="yd">Yard</option>
+                <option value="ft">Foot</option>
+                <option value="in">Inch</option>
+              </select>
+            </div>
+            <div>
+              <label for="outputDistance">Converted Distance:</label>
+              <span id="outputDistance"></span>
+              <select id="toUnit">
+                  <option value="m">Meter</option>
+                  <option value="km">Kilometer</option>
+                  <option value="cm">Centimeter</option>
+                  <option value="mi">Mile</option>
+                  <option value="yd">Yard</option>
+                  <option value="ft">Foot</option>
+                  <option value="in">Inch</option>
+              </select>
+            </div>
+            <button onclick="convertDistance()">Convert</button>
+          </div>
+      
+    </div>
+    <div class="section" id="section6">
+
+    </div>
 </div>
-
-<script>
-    function showSection(sectionNumber) {
-    var sections = document.getElementsByClassName("section");
-    for (var i = 0; i < sections.length; i++) {
-        sections[i].style.display = "none";
-    }
-    var sectionId = "section" + sectionNumber;
-    document.getElementById(sectionId).style.display = "block";
-}
-
-    function calculateAge() {
-        var birthdate = document.getElementById("birthdate").value;
-        if (!birthdate) {
-            alert("Please enter your date of birth.");
-            return;
-        }
-
-        var today = new Date();
-        var dob = new Date(birthdate);
-        var age = today.getFullYear() - dob.getFullYear();
-        var monthDiff = today.getMonth() - dob.getMonth();
-        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < dob.getDate())) {
-            age--;
-        }
-
-        document.getElementById("result").innerHTML = "Your age is: " + age;
-    }
-
-    function resetFields() {
-        document.getElementById("birthdate").value = "";
-        document.getElementById("result").innerHTML = "";
-    }
-    // احصل على النموذج وأضف استماع لحدث التقديم (submit)
-    function calculateBMI() {
-            var weight = parseFloat(document.getElementById('weight').value);
-            var height = parseFloat(document.getElementById('height').value) / 100; // تحويل الطول من سم إلى متر
-            var bmi = weight / (height * height);
-            var classification;
-
-            if (bmi < 18.5) {
-                classification = "نحيف جداً";
-            } else if (bmi >= 18.5 && bmi <= 24.9) {
-                classification = "وزن طبيعي";
-            } else if (bmi >= 25 && bmi <= 29.9) {
-                classification = "زيادة في الوزن، ولكنها ليست بشكل كبير";
-            } else if (bmi >= 30 && bmi <= 34.9) {
-                classification = "السمنة (الدرجة الأولى)";
-            } else if (bmi >= 35 && bmi <= 39.9) {
-                classification = "السمنة المتوسطة (الدرجة الثانية)";
-            } else {
-                classification = "يرجى إدخال معطيات";
-            }
-
-            document.getElementById('result-bmiForm').innerHTML = "نتيجة مؤشر كتلة الجسم (BMI): " + bmi.toFixed(2) + "<br>التصنيف: " + classification;
-        }
-
-</script>
+<script src="script.js"></script>  
+<div class="footer">
+      <p>جميع الحقوق محفوظة © 2024</p>
+      <ul class="social-media">
+        
+        <a href="https://www.facebook.com/profile.php?id=100022772137168"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/ayoubaym"><i class="fab fa-x"></i></a>
+        <a href="https://www.instagram.com/ayoub_ha_999/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ayoub-hassnaoui-664816249/"><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+        <a href="https://discord.gg/eANFRbc7"><i class="fab fa-discord"></i></a>
+        
+        
+      </ul>
+    </div>
   </body>
 </html>
