@@ -1,0 +1,163 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+.footer {
+  background-color: #7a7777;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+}
+.content {
+  padding-top: 60px; /* تعديل الارتفاع لمطابقة ارتفاع شريط العنوان */
+  padding-bottom: 60px; /* تعديل الارتفاع لمطابقة ارتفاع شريط الحقوق */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container2 {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تضليل خفيف للمربع */
+  }
+h1 {
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resetBtn {
+  background-color: #dc3545;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.section {
+display: none;
+}
+
+#section1 {
+display: block; 
+}
+/* يجعل العنصر الأول مرئيًaaaaaaaaaaaaaaaaaaaaaaaaaaaaaا افتراضيًا */
+ 
+.calculator {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+text-align: center;
+width: 250px; /* تحديد عرض الصندوق */
+margin: auto; /* توسيط الصندوق */
+}
+
+.buttons11 {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 5px;
+}
+
+.buttons11 button {
+width: 50px;
+height: 50px;
+font-size: 20px;
+border-radius: 5px;
+}
+
+#display111 {
+width: calc(100% - 20px); /* توسيط وتحديد عرض حقل العرض */
+padding: 10px;
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+
+
+  .container333 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #2b2323;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  
+  button:hover {
+    background-color: #0056b3;
+  }
