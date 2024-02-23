@@ -8,7 +8,7 @@ html {
 .header {
   background-color: #333;
   color: #fff;
-  padding: 0 0 ;
+  padding: 10px 0;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -18,17 +18,22 @@ html {
 .footer {
   background-color: #7a7777;
   color: #fff;
-  padding: 15px 0;
+  padding: 10px 0;
   text-align: center;
   position: fixed;
   width: 100%;
   bottom: 0;
   z-index: 999;
 }
-.content {
-  padding-top: 60px; /* تعديل الارتفاع لمطابقة ارتفاع شريط العنوان */
-  padding-bottom: 60px; /* تعديل الارتفاع لمطابقة ارتفاع شريط الحقوق */
+
+
+/* Adjust the position of the content above the footer */
+/* Example */
+.content-above-footer {
+  margin-bottom: 60px; /* Adjust according to the height of your footer */
 }
+
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -38,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 129vh; /* Ensure the page takes up at least the height of the viewport */
 }
 
 .container {
