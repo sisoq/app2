@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 109vh; /* Ensure the page takes up at least the height of the viewport */
+  min-height: 106vh; /* Ensure the page takes up at least the height of the viewport */
 }
 
 .container {
